@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://young-band-ba97.laodayizhi.workers.dev/ads-widget.js"></script>
+<title>影片搜索-热门日韩视频</title>
+  <meta name="description" content="搜索热门日韩视频、热门好看视频和高清视频在线播放内容。">
+  <meta name="keywords" content="热门日韩视频,热门好看视频,高清视频播放,日韩视频,视频大全,精选内容,影片搜索,视频搜索">
+  <link rel="stylesheet" href="./assets/site.css">
+  
+</head>
+<body>
+<header class="site-header">
+  <div class="container nav-shell">
+    <a class="brand" href="./index.html" aria-label="热门日韩视频">
+      <span class="brand-icon">▶</span>
+      <span>热门日韩视频</span>
+    </a>
+    <nav class="desktop-nav">
+      <a class="nav-link active" href="./index.html">首页</a>
+      <a class="nav-link" href="./categories.html">分类</a>
+      <a class="nav-link" href="./ranking.html">热播榜</a>
+      <a class="nav-link" href="./regions.html">地区</a>
+      <a class="nav-link" href="./years.html">年份</a>
+    </nav>
+    <form class="nav-search" action="./search.html" method="get">
+      <input type="search" name="q" placeholder="搜索影片" autocomplete="off">
+      <button type="submit">搜索</button>
+    </form>
+    <button class="menu-toggle" type="button" data-menu-toggle aria-label="打开导航">☰</button>
+  </div>
+  <nav class="mobile-nav" data-mobile-nav>
+    <a href="./index.html">首页</a>
+    <a href="./categories.html">分类</a>
+    <a href="./ranking.html">热播榜</a>
+    <a href="./regions.html">地区</a>
+    <a href="./years.html">年份</a>
+    <form action="./search.html" method="get">
+      <input type="search" name="q" placeholder="搜索影片" autocomplete="off">
+      <button type="submit">搜索</button>
+    </form>
+  </nav>
+</header>
+<main class="container page-main search-main">
+  <div class="page-title">
+    <p class="eyebrow">站内搜索</p>
+    <h1>搜索热门好看视频</h1>
+    <p>可输入片名、地区、年份、类型或标签进行筛选。</p>
+  </div>
+  <form class="search-page-form" action="./search.html" method="get">
+    <input type="search" name="q" id="searchInput" placeholder="输入关键词" autocomplete="off">
+    <button type="submit">搜索</button>
+  </form>
+  <div class="search-count" id="searchCount"></div>
+  <div class="movie-grid" id="searchResults"></div>
+</main>
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div>
+      <a class="brand footer-brand" href="./index.html">
+        <span class="brand-icon">▶</span>
+        <span>热门日韩视频</span>
+      </a>
+      <p>聚合热门日韩视频内容，覆盖多题材分类，页面以合集和片库形式清晰呈现。</p>
+    </div>
+    <div class="footer-links">
+      <a href="./categories.html">分类片库</a>
+      <a href="./ranking.html">热播榜单</a>
+      <a href="./search.html">影片搜索</a>
+      <a href="./years.html">年份索引</a>
+    </div>
+    <div class="footer-note">
+      <p>© 2026 热门日韩视频</p>
+    </div>
+  </div>
+</footer>
+  <script src="./assets/search-data.js"></script>
+  <script src="./assets/site.js"></script>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?60fa60a3da050a73eefefaaebe0afaf5";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</body>
+</html>
